@@ -22,7 +22,13 @@ const PersonalInfo = () => {
 
       <Image src={echoGaz} width={145} height={125} />
       <div className="personalInfo">
-        <Image src={rnPerson} width={134} height={134} className="personImg" />
+        <Image
+          src={rnPerson}
+          width={134}
+          height={134}
+          style={{ objectFit: "cover" }}
+          className="personImg"
+        />
         <div className="personNameCarrer">
           <h2>
             Mr.MOHAMAD
